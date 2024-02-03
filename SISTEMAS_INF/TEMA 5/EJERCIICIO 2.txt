@@ -1,0 +1,11 @@
+Procesador ------ 1 GHz
+RAM ------ 4 GB
+ALMCENAMIENTO ------ 64GB
+Tarjeta Grafica ------- DirectX 12
+
+MAC
+
+Procesador ------
+RAM ------ 4 GB
+ALMACENAMIENTO ---------- 40GB
+Tarjeta Grafica -------

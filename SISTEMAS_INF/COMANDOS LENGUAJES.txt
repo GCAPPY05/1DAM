@@ -1,0 +1,22 @@
+VBoxManage.exe modifyvm "MAC OS X” –cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+
+VBoxManage setextradata "MAC OS X” "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct” "iMac19,1”
+
+VBoxManage setextradata "MAC OS X” "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion” "1.0”
+
+VBoxManage setextradata "MAC OS X” "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct” "Mac-AA95B1DDAB278B95”
+
+VBoxManage setextradata "MAC OS X” "VBoxInternal/Devices/smc/0/Config/DeviceKey” "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc”
+
+VBoxManage setextradata "MAC OS X” "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC” 1
+
+VBoxManage setextradata "MAC OS X” "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct” "Mac-AA95B1DDAB278B95”
+
+VBoxManage setextradata "MAC OS X” "VBoxInternal/Devices/efi/0/Config/DmiSystemSerial” "CK1156I6DB6”
+
+VBoxManage setextradata "MAC OS X” "VBoxInternal2/EfiGraphicsResolution” "1920×1080”
+
+VBoxManage modifyvm "MAC OS X” -–cpu-profile "Intel Core i5-12600KF”
+
+
+cd "C:\Program Files\Oracle\VirtualBox\"

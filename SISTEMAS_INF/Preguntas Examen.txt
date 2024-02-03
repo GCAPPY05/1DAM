@@ -1,0 +1,4 @@
+RAID 5
+RAID 6 agrega una segunda paridad ademas de tener ya una previamente.
+
+Casos practico Tema 14
